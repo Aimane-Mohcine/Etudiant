@@ -1,11 +1,13 @@
 package com.ayman.mapper;
 
 import org.springframework.beans.BeanUtils;
+import org.springframework.stereotype.Component;
 
 import com.ayman.dto.DTORequest;
 import com.ayman.dto.DTOResponse;
 import com.ayman.entities.Etudiant;
 
+@Component
 public class MapImp implements InterfaceMap{
 
 	@Override
