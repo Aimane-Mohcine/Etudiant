@@ -38,6 +38,8 @@ public class EtudiantApplication   implements CommandLineRunner{
 		p1.save(e3);
 		p1.save(e4);
 		p1.save(e5);
+		
+		System.out.println("marche tres bien");
 	}
 
 }
